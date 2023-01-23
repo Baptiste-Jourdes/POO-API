@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:insert="fragments/header.html"> </head>
+<body>
+<div th:replace="fragments/navbar.html"></div>
+<h1>Les differentes adresses</h1>
+<ul th:each="address:${allAddresses}">
+  <li th:text="${address.content } + '  /  ' + ${address.auteur }" />
+</ul>
+</body>
+</html>
