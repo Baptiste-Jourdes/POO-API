@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:insert="fragments/header.html"> </head>
+<body>
+<div th:replace="fragments/navbar.html"></div>
+<h1>Formulaire</h1>
+<form action="/meteo" method="post">
+  <div>
+    <label for="address">Please input your label :</label>
+      <input name="address" id="address">
+    </div>
+  <div>
+    <button>Get the Weather</button>
+  </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:insert="fragments/header.html"> </head>
+<body>
+<div th:replace="fragments/navbar.html"></div>
+<h1>Meteo</h1>
+<p th:text="'Vous avez recherché x=' + ${x} + ' , y=' + ${y}" />
+<p th:text="'Méteo response=' + ${response}" />
+<p th:text="'Méteo tmin=' + ${tmin}" />
+<p th:text="'Méteo tmin=' + ${tmax}" />
+
+</body>
+</html>
