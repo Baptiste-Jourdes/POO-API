@@ -1,3 +1,4 @@
+<h1>TP Noté 1:</h1>
 WEB: 
 Créer une application web à l'aide de Spring
 
@@ -74,7 +75,7 @@ Réponse de l'API: <br>
 "cp":72650,<br>
 "latitude":48.0358,<br>
 "longitude":0.1567,<br>
-"day":0,     <span class="text">=>   Prévision du jour 0 donc aujourd'hui</span><br>
+"day":0,      $\textcolor{green}{\text{=>   Prévision du jour 0 donc aujourd'hui}}$<br>
 "datetime":"2023-01-29T01:00:00+0100",<br>
 "wind10m":5,<br>
 "gust10m":25,<br>
@@ -82,9 +83,9 @@ Réponse de l'API: <br>
 "rr10":0,<br>
 "rr1":0,<br>
 "probarain":10,<br>
-"weather":1, <span class="text">=>   Prévision de la méteo: d'après le tableau fourni par l'api, 1 = "Peu nuageux"</span><br>
-"tmin":-1,<span class="text">=>   Prévision de température minimale</span><br>
-"tmax":6, <span class="text">=>   Prévision de température maximale</span><br>
+"weather":1, $\textcolor{green}{\text{=>   Prévision de la méteo: d'après le tableau fourni par l'api, 1 = "Peu nuageux"}}$<br>
+"tmin":-1, $\textcolor{green}{\text{=>   Prévision de température minimale<}}$<br>
+"tmax":6, $\textcolor{green}{\text{=>   Prévision de température maximale}}$<br>
 "sun_hours":5,<br>
 "etp":0,<br>
 "probafrost":90,<br>
@@ -98,7 +99,7 @@ Réponse de l'API: <br>
 "cp":72650,<br>
 "latitude":48.0358,<br>
 "longitude":0.1567,<br>
-"day":1,     <span class="text">=>   Prévision du jour 1 donc demain (J+1)</span><br>
+"day":1,     $\textcolor{green}{\text{=>   Prévision du jour 1 donc demain (J+1)}}$<br>
 "datetime":"2023-01-30T01:00:00+0100",<br>
 "wind10m":10,<br>
 "gust10m":34,<br>
@@ -106,9 +107,9 @@ Réponse de l'API: <br>
 "rr10":0.2,<br>
 "rr1":0.2,<br>
 "probarain":60,<br>
-"weather":10, <span class="text">=>   Prévision de la méteo: d'après le tableau fourni par l'api, 10 = "Pluie faible"</span><br>
-"tmin":4,```diff + <span class="text">=>   Prévision de température minimale</span>```<br>
-"tmax":10,<span class="text">=>   Prévision de température maximale</span><br>
+"weather":10, $\textcolor{green}{\text{=>   Prévision de la méteo: d'après le tableau fourni par l'api, 10 = "Pluie faible"}}$<br>
+"tmin":4, $\textcolor{green}{\text{=>   Prévision de température minimale}}$<br>
+"tmax":10, $\textcolor{green}{\text{=>   Prévision de température maximale}}$<br>
 "sun_hours":1,<br>
 "etp":0,<br>
 "probafrost":20,<br>
@@ -117,11 +118,11 @@ Réponse de l'API: <br>
 "probawind100":0,<br>
 "gustx":34<br>
 },<br>
-{"insee":"72065","cp":72650,"latitude":48.0358,"longitude":0.1567,"day":2,"datetime":"2023-01-31T01:00:00+0100","wind10m":10,"gust10m":22,"dirwind10m":279,"rr10":0,"rr1":0,"probarain":0,"weather":3,"tmin":0,"tmax":8,"sun_hours":3,"etp":0,"probafrost":70,"probafog":20,"probawind70":0,"probawind100":0,"gustx":22},<span class="text">=>   Prévision du jour 1 donc demain (J+2)</span><br>
-{"insee":"72065","cp":72650,"latitude":48.0358,"longitude":0.1567,"day":3,"datetime":"2023-02-01T01:00:00+0100","wind10m":15,"gust10m":29,"dirwind10m":292,"rr10":0.2,"rr1":0.2,"probarain":30,"weather":5,"tmin":5,"tmax":9,"sun_hours":2,"etp":0,"probafrost":30,"probafog":0,"probawind70":0,"probawind100":0,"gustx":36},<span class="text">=>   Prévision du jour 1 donc demain (J+3)</span><br>
-{"insee":"72065","cp":72650,"latitude":48.0358,"longitude":0.1567,"day":4,"datetime":"2023-02-02T01:00:00+0100","wind10m":10,"gust10m":24,"dirwind10m":303,"rr10":0,"rr1":0,"probarain":40,"weather":3,"tmin":1,"tmax":7,"sun_hours":5,"etp":0,"probafrost":70,"probafog":0,"probawind70":0,"probawind100":0,"gustx":24},<span class="text">=>   Prévision du jour 1 donc demain (J+4)</span><br>
-{"insee":"72065","cp":72650,"latitude":48.0358,"longitude":0.1567,"day":5,"datetime":"2023-02-03T01:00:00+0100","wind10m":10,"gust10m":18,"dirwind10m":27,"rr10":0,"rr1":0,"probarain":20,"weather":3,"tmin":1,"tmax":7,"sun_hours":5,"etp":0,"probafrost":70,"probafog":30,"probawind70":0,"probawind100":0,"gustx":18},<span class="text">=>   Prévision du jour 1 donc demain (J+5)</span><br>
-{"insee":"72065","cp":72650,"latitude":48.0358,"longitude":0.1567,"day":6,"datetime":"2023-02-04T01:00:00+0100","wind10m":10,"gust10m":27,"dirwind10m":41,"rr10":0,"rr1":0,"probarain":10,"weather":3,"tmin":1,"tmax":8,"sun_hours":5,"etp":1,"probafrost":70,"probafog":0,"probawind70":0,"probawind100":0,"gustx":27},<span class="text">=>   Prévision du jour 1 donc demain (J+6)</span><br>
+{"insee":"72065","cp":72650,"latitude":48.0358,"longitude":0.1567,"day":2,"datetime":"2023-01-31T01:00:00+0100","wind10m":10,"gust10m":22,"dirwind10m":279,"rr10":0,"rr1":0,"probarain":0,"weather":3,"tmin":0,"tmax":8,"sun_hours":3,"etp":0,"probafrost":70,"probafog":20,"probawind70":0,"probawind100":0,"gustx":22}, $\textcolor{green}{\text{=>   Prévision du jour 2 donc demain (J+2) }}$<br>
+{"insee":"72065","cp":72650,"latitude":48.0358,"longitude":0.1567,"day":3,"datetime":"2023-02-01T01:00:00+0100","wind10m":15,"gust10m":29,"dirwind10m":292,"rr10":0.2,"rr1":0.2,"probarain":30,"weather":5,"tmin":5,"tmax":9,"sun_hours":2,"etp":0,"probafrost":30,"probafog":0,"probawind70":0,"probawind100":0,"gustx":36}, $\textcolor{green}{\text{=>   Prévision du jour 3 donc demain (J+3) }}$ <br>
+{"insee":"72065","cp":72650,"latitude":48.0358,"longitude":0.1567,"day":4,"datetime":"2023-02-02T01:00:00+0100","wind10m":10,"gust10m":24,"dirwind10m":303,"rr10":0,"rr1":0,"probarain":40,"weather":3,"tmin":1,"tmax":7,"sun_hours":5,"etp":0,"probafrost":70,"probafog":0,"probawind70":0,"probawind100":0,"gustx":24}, $\textcolor{green}{\text{=>   Prévision du jour 4 donc demain (J+4) }}$ <br>
+{"insee":"72065","cp":72650,"latitude":48.0358,"longitude":0.1567,"day":5,"datetime":"2023-02-03T01:00:00+0100","wind10m":10,"gust10m":18,"dirwind10m":27,"rr10":0,"rr1":0,"probarain":20,"weather":3,"tmin":1,"tmax":7,"sun_hours":5,"etp":0,"probafrost":70,"probafog":30,"probawind70":0,"probawind100":0,"gustx":18}, $\textcolor{green}{\text{=>   Prévision du jour 5 donc demain (J+5) }}$ <br>
+{"insee":"72065","cp":72650,"latitude":48.0358,"longitude":0.1567,"day":6,"datetime":"2023-02-04T01:00:00+0100","wind10m":10,"gust10m":27,"dirwind10m":41,"rr10":0,"rr1":0,"probarain":10,"weather":3,"tmin":1,"tmax":8,"sun_hours":5,"etp":1,"probafrost":70,"probafog":0,"probawind70":0,"probawind100":0,"gustx":27}, $\textcolor{green}{\text{=>   Prévision du jour 6 donc demain (J+6) }}$ <br>
 {"insee":"72065","cp":72650,"latitude":48.0358,"longitude":0.1567,"day":7,"datetime":"2023-02-05T01:00:00+0100","wind10m":10,"gust10m":24,"dirwind10m":42,"rr10":0,"rr1":0,"probarain":10,"weather":3,"tmin":1,"tmax":8,"sun_hours":5,"etp":1,"probafrost":70,"probafog":0,"probawind70":0,"probawind100":0,"gustx":24},<br>
 {"insee":"72065","cp":72650,"latitude":48.0358,"longitude":0.1567,"day":8,"datetime":"2023-02-06T01:00:00+0100","wind10m":10,"gust10m":24,"dirwind10m":95,"rr10":0,"rr1":0,"probarain":10,"weather":3,"tmin":0,"tmax":7,"sun_hours":5,"etp":1,"probafrost":70,"probafog":0,"probawind70":0,"probawind100":0,"gustx":24},<br>
 {"insee":"72065","cp":72650,"latitude":48.0358,"longitude":0.1567,"day":9,"datetime":"2023-02-07T01:00:00+0100","wind10m":10,"gust10m":24,"dirwind10m":121,"rr10":0,"rr1":0,"probarain":40,"weather":3,"tmin":0,"tmax":6,"sun_hours":5,"etp":1,"probafrost":70,"probafog":0,"probawind70":0,"probawind100":0,"gustx":24},<br>
