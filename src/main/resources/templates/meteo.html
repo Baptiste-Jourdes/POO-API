@@ -5,9 +5,12 @@
 <div th:replace="fragments/navbar.html"></div>
 <h1>Meteo</h1>
 <p th:text="'Vous avez recherché x=' + ${x} + ' , y=' + ${y}" />
-<p th:text="'Méteo response=' + ${response}" />
+
 <p th:text="'Méteo tmin=' + ${tmin}" />
 <p th:text="'Méteo tmin=' + ${tmax}" />
+
+<br><br><br><br>
+<p th:text="'Méteo response=' + ${response}" />
 
 </body>
 </html>
