@@ -107,7 +107,7 @@ Réponse de l'API: <br>
 "rr1":0.2,<br>
 "probarain":60,<br>
 "weather":10, <span class="text">=>   Prévision de la méteo: d'après le tableau fourni par l'api, 10 = "Pluie faible"</span><br>
-"tmin":4,<span class="text">=>   Prévision de température minimale</span><br>
+"tmin":4,```diff + <span class="text">=>   Prévision de température minimale</span>```<br>
 "tmax":10,<span class="text">=>   Prévision de température maximale</span><br>
 "sun_hours":1,<br>
 "etp":0,<br>
@@ -133,11 +133,6 @@ Réponse de l'API: <br>
 }<br>
 </li>
 </ol>
-
-<style>
-.text{color: #0061FF;}
-</style>
-
 
 
 
